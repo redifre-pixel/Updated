@@ -32,9 +32,9 @@ async def change_status_loop():
     await bot.change_presence(status=discord.Status.online, activity=bot_activity)
 
 roasts = [
-    "You look like poop", 
-    "You stink", 
-    "Yo mama so dumb she thought eating redbull will make her fly"
+    "Template 1", 
+    "Template 2", 
+    "Template 3"
 ]
 
 @bot.command()
